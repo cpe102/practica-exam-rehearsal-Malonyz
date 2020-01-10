@@ -1,6 +1,24 @@
 #include <iostream>
+#include<cmath>
 
-//Write sumSqrt() here.
+using namespace std;
+
+double sumSqrt (int N){
+    double x=1.0;
+    double sum=1.0;
+    if (N>0){
+        while(x<N){
+            sum=sum+(1/(pow(x,0.5)));
+            x = x+1;
+
+        }
+
+    }else {
+        sum = 0;
+    }
+    return sum;
+
+}
 
 
 int main()
