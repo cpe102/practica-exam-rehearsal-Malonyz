@@ -1,6 +1,16 @@
 #include <iostream>
+#include <string>
 
-//Write compress() here.
+using namespace std;
+string conpress(string a){
+    int x=0;
+    string y;
+    while(a.size() > x){
+        y += a[x];
+        x += 3;
+
+    }return y;
+}
 
 int main()
 {
