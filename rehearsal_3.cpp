@@ -4,11 +4,11 @@
 using namespace std;
 
 double sumSqrt (int N){
-    double x=1.0;
-    double sum=1.0;
+    int x=1;
+    float sum=0;
     if (N>0){
-        while(x<N){
-            sum=sum+(1/(pow(x,0.5)));
+        while(x<=N){
+            sum=sum+(1/(sqrt(x)));
             x = x+1;
 
         }
