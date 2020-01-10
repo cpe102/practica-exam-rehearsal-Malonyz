@@ -8,7 +8,7 @@ using namespace std;
     float x;
      cout << "What is your name? :";
      cin >> y;
-     cout << "What is your GPA :";
+     cout << "What is your GPA? :";
      cin >> x;
      string a = " Inw Jrim Jrim!!!";
      string b = "Try harder, ";
